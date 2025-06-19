@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indian Flag</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4f4f4;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .flag {
+      position: relative;
+      width: 360px;
+      height: 180px;
+      border: 1px solid #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .stripe {
+      height: 60px;
+      width: 100%;
+    }
+    .saffron {
+      background: orange;
+    }
+    .white {
+      background: #fff;
+      position: relative;
+      z-index: 1;
+    }
+    .green {
+      background: #138808;
+    }
+    .flag-img-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 56px;
+      height: 56px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 2px solid #222;
+      object-fit: cover;
+      background: #fff;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flag">
+      <div class="stripe saffron"></div>
+      <div class="stripe white"></div>
+      <div class="stripe green"></div>
+      <img src="flag.jpg" alt="Center Image" class="flag-img-center">
+    </div>
+  </div>
+</body>
+</html>
