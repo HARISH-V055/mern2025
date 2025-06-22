@@ -13,7 +13,7 @@ import Reducer from './assets/hooks/Reducer'
 import Ref from './assets/hooks/Ref'
 import State from './assets/hooks/State'
 
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom'
 
 
