@@ -1,5 +1,5 @@
 import React from 'react'
-import Child from './components/child'
+import Child from './components/Child'
 import Home from './Pages/Home'
 import About from './Pages/About' 
 import Skills from './Pages/Skills'
