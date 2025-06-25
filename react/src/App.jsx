@@ -12,9 +12,9 @@ import Effect2 from './assets/hooks/Effect2'
 import Reducer from './assets/hooks/Reducer'
 import Ref from './assets/hooks/Ref'
 import State from './assets/hooks/State'
-
 import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom'
+import Todo from './components/Todo'
 
 
 
@@ -38,6 +38,7 @@ const App = () => {
         <Route path="/ref" element={<Ref />} />
         <Route path="/child" element={<Child name="John Doe" pno="1234567890" />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
+        <Route path="/todo" element={<Todo />} />
         
       </Routes>
    
